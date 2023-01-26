@@ -1,0 +1,94 @@
+body {
+  background-color: #e0e0ce;
+  font-family: "Lato";
+}
+
+h1 {
+  color: #ad343e;
+  font-family: "Lato";
+}
+
+.img-responsive {
+  width: 194px;
+  height: auto;
+  transform: rotate(48.84deg);
+  margin-top: -10em;
+
+}
+
+h2 {
+  color: #ad343e;
+}
+
+
+.container, h1, h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+
+}
+#pl-0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.current-box {
+  background-color: #474747;
+  margin: auto;
+  width: 30%;
+  color: #f2af29;
+  padding: 7px;
+  border-radius: 30px;
+}
+
+
+.play-box {
+
+width: 130px;
+height: 50px;
+background: #F2AF29;
+border-radius: 30px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+cursor: pointer;
+
+}
+
+
+#pl-1{
+  margin-left: auto;
+
+}
+
+
+
+.hold-box {
+
+width: 150px;
+height: 60px;
+background: #F2AF29;
+border-radius: 30px;
+position: relative;
+margin-top: 35%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+
+.hold {
+text-align: center;
+cursor: pointer;
+
+}
+
+.dice {
+  margin-top: -15em;
+}
+
