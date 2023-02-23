@@ -28,11 +28,32 @@ h2 {
   margin-bottom: 10%;
 
 }
+#new:hover{
+  cursor: pointer;
+  
+}
+
+#new:hover .icon{
+  padding-right: 7px;
+  transition: 0.15s;
+  transition-timing-function: ease-in;
+}
+
 #pl-0 {
   display: flex;
   align-items: center;
   justify-content: center;
   
+}
+
+.score-0{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.score-1{
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 
@@ -90,5 +111,26 @@ cursor: pointer;
 
 .dice {
   margin-top: -15em;
+}
+
+#rotate{
+  cursor: pointer;
+ 
+}
+
+#rotate:hover .r-icon{
+  padding-right: 7px;
+  transition: 0.15s;
+  transition-timing-function: ease-in;
+}
+
+#hold {
+  cursor: pointer;
+}
+
+#hold:hover .h-icon{
+padding-right: 7px;
+ transition: 0.15s;
+ transition-timing-function: ease-in;
 }
 
