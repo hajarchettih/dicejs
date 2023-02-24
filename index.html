@@ -58,12 +58,40 @@
   </div>
 
   <div class="col-sm-1"></div>
-
-
+  </div>
   </div>
 
+  <div class="text-center">
+    <button role="button" data-bs-toggle="modal" data-bs-target="#rules">
+      Règles du jeu
+    </button>
   </div>
-
+  <div class="modal fade" id="rules" tabindex="-1" aria-labelledby="rules" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body color">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="modal-title" id="rulesLabel">Règles du jeu </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <p>
+            Le jeu comprend 2 joueurs sur un seul et même écran.<br>
+            Chaque joueur possède un score temporaire (SCORE) et un score global (GLOBAL).<br>
+            À chaque tour, le joueur a son ROUND initialisé à 0 et peut lancer un dé autant de fois qu'il le souhaite.<br>
+            Le résultat d’un lancer est ajouté au ROUND.<br>
+            Lors de son tour, le joueur peut décider à tout moment de:<br>
+            - Cliquer sur l’option “Récupérer les points”, qui permet d’envoyer les points du SCORE vers le GLOBAL.<br>
+            Ce sera alors le tour de l’autre joueur. <br>
+            - Lancer le dé.<br> S’il obtient un 1, son score est perdu et c’est la fin de son tour.<br>
+            Le premier joueur qui atteint les 100 points sur global gagne le jeu.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col"></div>
+  </div>
+  </div>
 
   <script type="text/javascript" src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
