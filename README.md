@@ -12,7 +12,7 @@ Règles : Le jeu comprend 2 joueurs sur un seul et même écran. Chaque joueur p
 
 Lors de son tour, le joueur peut décider à tout moment de:
 
-Cliquer sur loption "Hold", qui permet d’envoyer les points du ROUND vers le GLOBAL. Ce sera alors le tour de l'autre joueur.
+Cliquer sur l'option "Récupérer les points", qui permet d’envoyer les points du ROUND vers le GLOBAL. Ce sera alors le tour de l'autre joueur.
 Lancer le dé. S'il obtient un 1, son score ROUND est perdu et c'est la fin de son tour. Le premier joueur qui atteint les 100 points sur global gagne le jeu.
 Modalités / Restrictions :
 
