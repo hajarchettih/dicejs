@@ -10,14 +10,18 @@ let animation = 0;
     document.querySelector('.current-0').textContent = '0';
     document.querySelector('.current-1').textContent = '0';
 
-
-
-document.getElementById('rotate').onclick = function(){
-    dice = Math.floor(Math.random()*6 + 1);
+    
+    document.getElementById("rotate").onclick = function(){
+      dice = Math.floor(Math.random()*6 + 1);
+      
+   if(gameRunning){    
+       
+      document.querySelector("#dice-img").src = "dice-"+dice+".PNG";
+    
     
  if(gameRunning){    
      
-  document.querySelector('#dice-img').src = 'ressources/dice-'+dice+'.png'
+  document.querySelector('#dice-img').src = 'ressources/dice-' + dice +'.png';
     
     if(animation === 0){
       document.querySelector('#dice-img').classList.add('tada');
@@ -46,7 +50,7 @@ document.getElementById('rotate').onclick = function(){
         current = 1-current; 
     }
  }
-}
+
 
 
 document.getElementById('hold').onclick = function(){
@@ -56,7 +60,7 @@ document.getElementById('hold').onclick = function(){
     document.querySelector('.score-'+current).textContent = score[current]
     
     if(score[current] >= 100){
-        document.querySelector("#pl-"+current).innerHTML = "<h2 id='pl-'"+current+">WINNER "+"<i class='fas fa-cicle'>"+"</i></h2>";
+        document.querySelector("#pl-"+current).innerHTML = "<h2 id='pl-'"+current+">BIEN JOUE ! "+"<i class='fas fa-cicle'>"+"</i></h2>";
         gameRunning = false;
     }
     
@@ -81,7 +85,7 @@ function game() {
     
     score= [0,0];
     roundScore = 0 ;
-    current=0;
+    current= 0;
     gameRunning = true;
     
    
@@ -89,6 +93,8 @@ function game() {
     document.querySelector('.score-1').textContent = '0';
     document.querySelector('.current-0').textContent = '0';
     document.querySelector('.current-1').textContent = '0';
-    document.querySelector('#pl-0').innerHTML = "<h2 id='pl-0'>PLAYER 1 "+"<i class='fas fa-cicle'>"+"</i></h2>";
-    document.querySelector('#pl-1').innerHTML = "<h2 id='pl-1'>PLAYER 2 "+"<i class='fas fa-cicle'>"+"</i></h2>";
+    document.querySelector("#pl-0").innerHTML = "<h2 id='pl-0'>PLAYER 1 "+"<i class='fas fa-cicle'>"+"</i></h2>";
+    document.querySelector("#pl-1").innerHTML = "<h2 id='pl-1'>PLAYER 2 "+"<i class='fas fa-cicle'>"+"</i></h2>";
   }
+}
+}

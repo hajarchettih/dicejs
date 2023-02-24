@@ -33,7 +33,7 @@ h2 {
   
 }
 
-#new:hover .icon{
+#new:hover{
   padding-right: 7px;
   transition: 0.15s;
   transition-timing-function: ease-in;
@@ -133,4 +133,21 @@ padding-right: 7px;
  transition: 0.15s;
  transition-timing-function: ease-in;
 }
+.player-0 i{
+  display: none;
+}
 
+.player-1 i{
+  display: none;
+}
+
+.active{
+  font-weight: 300;
+  color: #F2AF29;
+}
+
+.active i {
+  display: inline;
+  font-size: 20px;
+  color: #F2AF29;
+}
