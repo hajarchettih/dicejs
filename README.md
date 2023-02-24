@@ -1,9 +1,9 @@
-# diceparty
+# DICE PARTY
 
 EVALUATION N°2 : DYNAMISER VOS SITES WEB AVEC JAVASCRIPT
 
-Un jeu fonctionnel
-Une interface lisible qui correspond à la maquette fournie. Ceci implique plusieurs fonctionnalités globales : En front-desk (côté client) :
+Un jeu fonctionnel <br>
+Une interface lisible qui correspond à la maquette fournie. Ceci implique plusieurs fonctionnalités globales : En front-desk (côté client) :<br>
 La possibilité de créer une nouvelle partie
 La possibilité de retenir le score courant
 La possibilité de lancer le dé
